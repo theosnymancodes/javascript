@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // JS in the <head> runs before the body content is rendered
+        console.log("JS code served from the <head> of the HTML doc.")
+    </script>
+</head>
+<body>
+    <script>
+        // JS in the <body> runs after the content is rendered
+        console.log("JS code served from the <body> of the HTML doc.")
+    </script>
+
+    <script src="./getting-started.js"></script> <!-- Best practice: reference external JS files -->
+</body>
+</html>
